@@ -15,6 +15,7 @@ module Portfolio2022
     end
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.1
+    config.assets.initialize_on_precompile = false
 
     # Configuration for the application, engines, and railties goes here.
     #
@@ -25,5 +26,3 @@ module Portfolio2022
     # config.eager_load_paths << Rails.root.join("extras")
   end
 end
-
-config.assets.initialize_on_precompile = false
